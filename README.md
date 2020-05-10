@@ -6,6 +6,7 @@
 [image3]: ./img/RobotND-Project4-RTAB-Map-database.png " "
 
 
+
 Simple ROS/Gazebo project for Mapping with RTAB-Map package using an RGBD camera and a laser range finder.
 
 Gazebo world with mobile robot:
@@ -39,9 +40,14 @@ $ source devel/setup.bash
 $ roslaunch my_robot mapping.launch
 ```
 
+### Launch Robot Teleoperation
+```
+$ source devel/setup.bash
+$ roslaunch my_robot teleop.launch
+```
+
 ### View the complete Map
 Download the map <a href="https://drive.google.com/file/d/1yMyZXRvi69aKtDSvoKm97CBK0_UrLJxa/view?usp=sharing" target="_blank">rtabmap-final.db</a> (163 MB).
 ```
 $ rtabmap-databaseViewer rtabmap-final.db
 ```
-
