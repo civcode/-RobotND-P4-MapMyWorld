@@ -12,10 +12,10 @@ Simple ROS/Gazebo project for Mapping with RTAB-Map package using an RGBD camera
 Gazebo world with mobile robot:
 ![][image1]
 
-Rviz with partial map from RTAM-Map:
+Rviz with partial map from RTAB-Map:
 ![][image2]
 
-RTAM-Map database viewer with complete map:
+RTAB-Map database viewer with complete map:
 ![][image3]
 
 ## How To Use
